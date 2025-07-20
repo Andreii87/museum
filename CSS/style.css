@@ -124,8 +124,6 @@ header {
 
 /* Header styles end */
 
-/* Welcome styles start */
-
 .welcom {
   height: 100vh;
   background: linear-gradient(
@@ -137,5 +135,3 @@ header {
     url(../assets/img/welcome-slider/1.jpg) lightgray 50% / cover no-repeat;
   background-size: cover;
 }
-
-/* Welcome styles end */
