@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto-Thin.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Forum;
+  src: url("/fonts/Forum-Regular.ttf");
+  font-weight: 400;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Header styles start */
+
+header {
+  min-width: 1201px;
+  margin: 0 auto;
+  background-color: #030303;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header_logo {
+  display: inline;
+  height: 50px;
+}
+
+.logo-text {
+  display: inline;
+  color: #fff;
+  font-family: Forum;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.header_logo-link {
+  text-decoration: none;
+}
+
+.header_wraper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_item {
+  margin-right: 55px;
+}
+
+.header_item:last-child {
+  margin-right: 0;
+}
+
+.header_link {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.header_link:hover,
+.logo-text:hover {
+  color: #9d8665;
+  transition-duration: 0.5s;
+}
+
+.logo-link:hover .logo-text {
+  color: #9d8665;
+
+  transition-duration: 0.5s;
+}
+
+/* Header styles end */
+
+/* Welcome styles start */
+
+.welcom {
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      #000 0%,
+      rgba(0, 0, 0, 0.5) 16.19%,
+      rgba(0, 0, 0, 0) 30.73%
+    ),
+    url(../assets/img/welcome-slider/1.jpg) lightgray 50% / cover no-repeat;
+  background-size: cover;
+}
+
+/* Welcome styles end */
